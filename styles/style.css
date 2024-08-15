@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url("https://fonts.cdnfonts.com/css/miama");
+
+.inter-font{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  } 
+
+/* background styles */
+  #background-color{
+    background-color: black;
+  }
+
+/* nav styles */
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  nav ul{
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: .45rem;
+    font-size: 1.25rem;
+    border-radius: 2rem;
+    
+  }
+  nav ul li{
+    list-style: none;
+    /* margin: 0 2.5rem; */
+    width: 7rem;
+    justify-content: space-between ;
+   
+    
+  } 
+  nav li a{
+    text-decoration: none;
+    color: white;
+    
+  }
+  #home{
+    border: 1px solid #E6533C;
+    border-radius: 3rem;
+    background-color: #E6533C;
+    padding: .35rem;
+  }
+
+/* Shared Styles */
+  .all-margin{
+    margin: 1.5rem 6.8rem;;
+  }
+  .fitness{
+    font-weight: bolder;
+    font-size: 2.1rem;
+    color: #E6533C;
+  }
+  .primary-details{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    margin: 1.9rem 0 ;
+  }
+  .primary-btn{
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem 2.8rem;
+    border: 1px solid #E6533C;
+    background-color: #E6533C;
+    border-radius: 2.6rem;
+  }
+  .extra-btn{
+    color: white;
+    padding: 1.75rem 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.6rem;
+    background-color: rgba(64, 64, 64, 0.537);
+    
+ }
+
+  
+
+
+/* Banner Style */
+  .banner{
+    display: flex;
+  }
+  .banner-width{
+    width: 32rem;
+  }
+  .banner-info{
+    
+    color: white;
+    font-size: 4.8rem;
+  }
+  .banner-div{
+    margin-right: 55.5rem;
+  }
+  
+  .shape{
+    font-family: "Miama", sans-serif;
+    font-size: 7.8rem;
+    font-weight: 200;
+  }
+  .banner-img{
+    margin-left: 19rem;
+    position: relative;
+    /* border: 1px solid yellow;
+    */
+  }
+  .banner-img img{
+    width: 21rem;
+    height: 36rem;
+
+  }
+
+/* Button style */  
+  .download-btn{
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem 2.8rem;
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 2.6rem;
+    margin-left: 1rem;
+  }
+  #free-videos-badge{
+    width: 195px;
+    height: 96px;
+    font-size: .8rem;
+    font-weight: 500;
+    position: absolute;
+    left: 180px;
+    bottom: 360px;
+  }
+  #tutorial-badge{
+    display: flex;
+    width: 206px;
+    height: 96px;
+    font-size: .8rem;
+    font-weight: 500;
+    position: absolute;
+    right: 250px;
+    bottom: 90px;
+    justify-content: center;
+  }
+  /* #video-icon{
+   width: 40px;
+   height: 40px;
+  } */
+  #videos-500{
+    font-size: 30px;
+  }
+  #tutorial-350{
+    font-size: 22px;
+    
+  }

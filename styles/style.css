@@ -80,7 +80,19 @@
     background-color: rgba(64, 64, 64, 0.537);
     
  }
+ .color-white{
+    color: white;
+ }
+ #heading{
+    font-size: 3rem;
+ }
+ .habit-section{
+    margin-top: 8rem;
 
+ }
+ #image-shape{
+    border-radius: 100px;
+  }
   
 
 
@@ -173,8 +185,32 @@
     display: none;
   }
 
+  /* habit section style */
+  .habit-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2.5rem;
+  }
+  
+  .habit-container-intro{
+    width: 40rem; 
+    text-align: center;
+    margin: 0 auto 3.5rem auto;
+  }
+
+  .habit-card{
+    justify-content: center;
+  }
+  .habit-card{
+    width: 16rem;
+    height: 17rem;
+    text-align: center;
+  }
+ 
+
 
   @media  screen and (max-width: 576px) {
+
     .nav-bar{
         flex-direction: column;
     }
@@ -199,5 +235,20 @@
     #tutorial-badge{
         right: 120px;
     }
-    
+
+    /* habit-section */
+    .habit-container-intro{
+        width: 19rem;
+        height: 7.5rem;
+    }
+    #heading{
+        font-size: 2rem;
+    }
+    .habit-container{
+        grid-template-columns: repeat(1,1fr);
+        gap: 2.5rem;
+        justify-items: center;
+         
+    }
+   
   }

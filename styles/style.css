@@ -80,11 +80,12 @@
     background-color: rgba(64, 64, 64, 0.537);
     
  }
+ .heading-color{
+    color: white;
+    font-size: 3rem;
+ }
  .color-white{
     color: white;
- }
- #heading{
-    font-size: 3rem;
  }
  .habit-section{
     margin-top: 9rem;
@@ -231,6 +232,15 @@
     margin-top: -30px;
   }
 
+  /* BMI-calculator-info section */
+  .bmi-cal-section{
+    width: 41rem;
+    margin: 6rem auto;
+  }
+  .bmi-cal{
+    margin-bottom: -1rem;
+  }
+
 
   @media  screen and (max-width: 576px) {
 
@@ -264,7 +274,7 @@
         width: 19rem;
         height: 7.5rem;
     }
-    #heading{
+    #heading, .bmi-cal{
         font-size: 2rem;
     }
     .habit-container, .secondary-bg{
@@ -283,7 +293,10 @@
     .join-btn{
         width: 22rem;
     }
-
+    .bmi-cal-section{
+        margin: 0 1.6rem;
+        width: 22rem;
+    }
 
    
   }

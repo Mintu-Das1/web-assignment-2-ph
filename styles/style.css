@@ -22,6 +22,20 @@
     justify-content: space-between;
     
   }
+  .nav-items{
+    list-style-type: none;
+    display: flex;
+  }
+  .nav-items a{
+    display: flex;
+    text-decoration: none;
+  }
+  .nav-icon{
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
   nav ul{
     display: flex;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -43,6 +57,8 @@
     color: white;
     
   }
+  
+ 
   #home{
     border: 1px solid #E6533C;
     border-radius: 3rem;
@@ -355,14 +371,30 @@
     font-size: 1.2rem;
   }
 
+  
+  
+  
+  
+  
   @media  screen and (max-width: 576px) {
 
     .nav-bar{
         flex-direction: column;
     }
-    .nav-bar .nav-items{
+    .nav-bar {
         display: block;
-        
+    }
+    .nav-items{
+      display: none;
+      flex-direction: column;
+      width: 100%;
+    }
+    .nav-items.active{
+      display: flex;
+    }
+    .nav-icon{
+      display: flex;
+      background-color: white;
     }
     label.logo{
         font-size: 30px;

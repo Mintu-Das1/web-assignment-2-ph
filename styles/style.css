@@ -274,6 +274,43 @@
     
   }
 
+  /* meet our team section */
+  .team-heading{
+    width: 40rem;
+    margin: 4rem auto 0 auto;
+    text-align: center;
+  }
+  .heading-meet{
+    margin-bottom: -1.5rem;
+    
+  }
+  .team-member-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    width: 66rem;
+    height: 37rem;
+    margin: 0 auto;
+  }
+  .team-member-container img{
+    width: 100%;
+    height: 15rem;
+    border-radius: 1.2rem;
+  }
+  .team-member-intro{
+    margin-top: -6rem;
+    margin-left: 2rem;
+  }
+  .trainer-margin{
+    margin-top: -1.2rem;
+  }
+  .team-bg{
+    background-color: #222222;
+    height: 32rem;
+    border-radius: 1.2rem;
+    padding: 1rem;
+  }
+
   @media  screen and (max-width: 576px) {
 
     .nav-bar{
@@ -306,10 +343,10 @@
         width: 19rem;
         height: 7.5rem;
     }
-    #heading, .bmi-cal{
+    #heading, .bmi-cal, .heading-meet{
         font-size: 2rem;
     }
-    .habit-container, .secondary-bg, .bmi-calculator-opto{
+    .habit-container, .secondary-bg, .bmi-calculator-opto, .team-member-container{
         grid-template-columns: repeat(1,1fr);
         gap: 2.5rem;
         justify-items: center;
@@ -328,6 +365,28 @@
     .bmi-cal-section{
         margin: 0 1.6rem;
         width: 22rem;
+    }
+    .team-heading{
+      width: 19rem;
+      height: 7.5rem;
+
+    }
+    .team-bg{
+      width: 21rem;
+      height: 75.5rem;
+
+    }
+    .member-small-hide{
+      display: none;
+    }
+    .team-member-container img{
+      width: 18rem;
+      height: 17rem;
+
+    }
+    .team-member-container{
+      margin: 0 auto;
+
     }
 
    

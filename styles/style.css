@@ -153,6 +153,11 @@
     left: 180px;
     bottom: 360px;
   }
+  #tutorial-badge img{
+    width: 2.5rem;
+    height: 2.5rem;
+   
+  }
   #tutorial-badge{
     display: flex;
     width: 206px;
@@ -163,6 +168,12 @@
     right: 250px;
     bottom: 90px;
     justify-content: center;
+  }
+  .play-badge{
+    display: flex;
+  }
+  .play-btn-details{
+    margin-left: .5rem;
   }
   /* #video-icon{
    width: 40px;

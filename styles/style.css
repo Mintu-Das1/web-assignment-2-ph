@@ -56,7 +56,7 @@
   }
   .fitness{
     font-weight: bolder;
-    font-size: 2.1rem;
+    font-size: 3rem;
     color: #E6533C;
   }
   .primary-details{
@@ -128,6 +128,10 @@
     width: 21rem;
     height: 36rem;
 
+  }
+  .footer-option{
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.5);
   }
 
 /* Button style */  
@@ -311,6 +315,35 @@
     padding: 1rem;
   }
 
+  /* footer section */
+  footer{
+    margin-top: 6rem;
+  }
+  .footer-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+  }
+  .footer-container li{
+    list-style: none;
+  }
+  .get-started{
+    margin-left: 2.4rem;
+    font-size: 1.5rem;
+  }
+  .footer-content{
+    width: 11.3rem;
+    margin-left: 5rem;
+  }
+  .footer-content-heading{
+    width: 27rem;
+    margin-top: -1rem;
+  }
+  .footer-copyright{
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
   @media  screen and (max-width: 576px) {
 
     .nav-bar{
@@ -346,7 +379,11 @@
     #heading, .bmi-cal, .heading-meet{
         font-size: 2rem;
     }
-    .habit-container, .secondary-bg, .bmi-calculator-opto, .team-member-container{
+    .habit-container, 
+    .secondary-bg, 
+    .bmi-calculator-opto, 
+    .team-member-container,  
+    .footer-container{
         grid-template-columns: repeat(1,1fr);
         gap: 2.5rem;
         justify-items: center;
@@ -388,6 +425,18 @@
       margin: 0 auto;
 
     }
-
+    .footer-container{
+      margin: 0;
+      grid-template-columns: repeat(1, 2fr);
+      gap: 0rem;
+    }
+    .footer-content{
+      margin-left: -13rem;
+      width: 181px;
+    }
+    .footer-content-heading{
+      width: 19.8rem;
+    }
+    
    
   }

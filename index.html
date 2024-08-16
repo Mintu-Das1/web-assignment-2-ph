@@ -31,7 +31,7 @@
     <div class="banner">
         <div class="banner-width" class="banner-div">
             <h2 class="banner-info" >Get body in <span class="shape">shape</span> & stay healthy</h2>
-            <p class="primary-details" class="primary-details-margin">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+            <p class="primary-details" class="primary-details-margin">A huge optionion of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
             <button class="primary-btn">join Club Now!</button>
             <button class="download-btn">Download App</button>
         </div>
@@ -106,8 +106,62 @@
         </section>
 
     <!-- BMI Calculator Section -->
-     <section>
-        
+     <section class="bmi-bg">
+       <div class="all-margin bmi-calculator-opto">
+        <div class="bmi-chart">
+            <h2 class="color-white">BMI Calculator Chart</h2>
+            <table class="primary-details bmi-table">
+                <thead>
+                    <tr>
+                        <th>BMI</th>
+                        <th>Weight Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Below 18.5</td>
+                        <td>Underweight</td>
+                    </tr>
+                    <tr>
+                        <td>18.5 - 24.9</td>
+                        <td>Healthy</td>
+                    </tr>
+                    <tr>
+                        <td>25.0 - 29.9</td>
+                        <td>Overweight</td>
+                    </tr>
+                    <tr>
+                        <td>30.0 - and Above</td>
+                        <td>Obese</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="calculate-bmi">
+            <h2 class="color-white">Calculate your BMI</h2>
+            <p class="primary-details">We believe fitness should be accessible to everyone, regardless of income or acess to a gym.</p>
+            <div class="bmi-calculate">
+                <input class="bmi-info color-white" type="text" placeholder="Height/cm">
+                <input class="bmi-info color-white" type="text" placeholder="Weight/kg">
+                <input class="bmi-info color-white" type="text" placeholder="Age">
+                <input class="bmi-info color-white" type="text" list="sex" placeholder="Sex" />
+                    <datalist id="sex">
+                    <option value="Male"></option>
+                    <option value="Female"></option>
+                    <option value="Shemale"></option>
+                </datalist>
+                <input class="bmi-info color-white" type="text" list="activity" placeholder="Select an activity factor" />
+                    <datalist id="activity">
+                    <option value="Gym"></option>
+                    <option value="Running"></option>
+                    <option value="Swim"></option>
+                    <option value="Meditation"></option>
+                    <option value="None"></option>
+                </datalist>
+            </div>
+            <button class="primary-btn calculate-btn">Calculate</button>
+        </div>
+       </div>
      </section>
 
     </main>

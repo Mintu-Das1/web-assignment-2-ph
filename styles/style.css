@@ -185,6 +185,9 @@
   #check{
     display: none;
   }
+  .calculate-btn{
+    margin-top: 2rem;
+  }
 
   /* habit section style */
   .habit-container{
@@ -241,6 +244,35 @@
     margin-bottom: -1rem;
   }
 
+  /* BMI Calculator / chellenging section */
+  table{
+    border-collapse: collapse;
+  }
+  td, th{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: .7rem 2rem;
+  }
+
+  /* BMI-Calculate section / Challenging section */
+  .bmi-calculator-opto{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .bmi-bg{
+    padding: 2rem;
+    background-color: #222222;
+  }
+  .bmi-calculate{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .bmi-info{
+    padding: .7rem;
+    border-radius: .5rem;
+    margin: .1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    
+  }
 
   @media  screen and (max-width: 576px) {
 
@@ -277,11 +309,11 @@
     #heading, .bmi-cal{
         font-size: 2rem;
     }
-    .habit-container, .secondary-bg{
+    .habit-container, .secondary-bg, .bmi-calculator-opto{
         grid-template-columns: repeat(1,1fr);
         gap: 2.5rem;
         justify-items: center;
-        margin-bottom: 2.5rem;
+        margin: 6.5rem 0;
          
     }
     .run-img{
